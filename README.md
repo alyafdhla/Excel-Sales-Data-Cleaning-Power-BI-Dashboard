@@ -1,17 +1,20 @@
 # Excel Sales Data Cleaning and Power BI Dashboard
 
 ### 🔍 Objective
-Clean and standardise a global layoffs dataset to make it ready for analysis.
+Clean a raw sales dataset and produce a Power BI dashboard for business insights.
 
 ### 🛠 Tools
-- MySQL
+- Microsoft Excel
+- Power BI
 
-### ✅ Cleaning Steps
-- Removed duplicate rows
-- Standardised text fields (company, industry, location)
-- Handled NULL / blank values
-- Removed unnecessary columns and rows
-- Exported cleaned table as SQL (`world_layoffs.sql`)
+### ✅ Cleaning steps
+- Removed duplicates
+- Handled missing values
+- Cleaned text formatting (capitalization, spacing, spelling)
+- Calculated new columns (revenue, profit, total amount)
+- Used filters and data validation
 
-### 📄 Files
-- `world_layoffs.sql` — cleaned SQL export / script
+### 📊 Output
+- `SalesData_Clean.xlsx` — cleaned dataset used as the data source
+- `SalesDashboard.pbix` — Power BI file
+
